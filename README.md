@@ -14,7 +14,7 @@ Requisitos:
 Pasos:
 
 ```bash
-git clone https://github.com/TU-USUARIO/upana-prueba-upana.git
-cd upana-prueba-upana
+git clone https://github.com/ericdaal/upana-prueba-tecnica.git
+cd upana-prueba-tecnica
 docker-compose up -d
 

@@ -5,7 +5,6 @@ db_data/
 # WordPress core (se genera en el contenedor)
 wp-admin/
 wp-includes/
-*.sql
 
 # Sistema
 .DS_Store
