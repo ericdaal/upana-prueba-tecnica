@@ -1,0 +1,102 @@
+.upana-form-wrap {
+    background: #f5f7fb;
+    padding: 1.8rem;
+    border-radius: 18px;
+}
+
+.upana-form-titulo {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+}
+
+.upana-form-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.5rem;
+}
+
+.upana-form-paso {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 1.25rem 1.5rem;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.upana-form-campo {
+    margin-bottom: 0.9rem;
+}
+
+.upana-form-campo label {
+    display: block;
+    font-size: 0.85rem;
+    margin-bottom: 0.2rem;
+}
+
+.upana-form-campo input,
+.upana-form-campo select,
+.upana-form-campo textarea {
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid #ccd1e0;
+    padding: 0.45rem 0.6rem;
+    font-size: 0.9rem;
+}
+
+.upana-form-campo small {
+    font-size: 0.75rem;
+    color: #666;
+}
+
+.upana-form-acciones {
+    margin-top: 1rem;
+    display: flex;
+}
+
+.upana-form-acciones.derecha {
+    justify-content: flex-end;
+}
+
+.upana-form-acciones.espacio {
+    justify-content: space-between;
+}
+
+.upana-btn {
+    border: none;
+    border-radius: 999px;
+    padding: 0.45rem 1.2rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.upana-btn-primario {
+    background: #0046b8;
+    color: #fff;
+}
+
+.upana-btn-secundario {
+    background: #e1e5f0;
+    color: #1c2a4a;
+}
+
+.upana-btn-guardar {
+    background: #33a35c;
+    color: #fff;
+}
+
+.upana-form-mensaje {
+    margin-top: 1rem;
+    padding: 0.7rem 1rem;
+    border-radius: 8px;
+    font-size: 0.9rem;
+}
+
+.upana-form-mensaje.ok {
+    background: #d1f4e0;
+    color: #136a3e;
+}
+
+.upana-form-mensaje.error {
+    background: #ffe2e2;
+    color: #a32121;
+}

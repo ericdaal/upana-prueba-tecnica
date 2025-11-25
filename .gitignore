@@ -1,0 +1,12 @@
+# Docker
+db_data/
+*.log
+
+# WordPress core (se genera en el contenedor)
+wp-admin/
+wp-includes/
+*.sql
+
+# Sistema
+.DS_Store
+Thumbs.db

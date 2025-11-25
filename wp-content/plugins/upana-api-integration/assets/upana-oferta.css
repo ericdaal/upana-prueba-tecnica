@@ -1,0 +1,87 @@
+.upana-oferta-wrap {
+    background: #002b80; /* azul de tu sitio */
+    color: #fff;
+    padding: 2rem;
+    border-radius: 18px;
+}
+
+.upana-oferta-titulo {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+}
+
+.upana-oferta-stepper h3 {
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+}
+
+.upana-oferta-select {
+    width: 100%;
+    max-width: 360px;
+    padding: 0.5rem 0.75rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+}
+
+.upana-oferta-btn {
+    display: inline-block;
+    padding: 0.45rem 1.1rem;
+    border-radius: 999px;
+    border: none;
+    cursor: pointer;
+    font-size: 0.9rem;
+    background: #ffcc00;
+    color: #002b80;
+    font-weight: 600;
+}
+
+.upana-oferta-btn.anterior {
+    background: #ffffff;
+    color: #002b80;
+    margin-right: 0.5rem;
+}
+
+.upana-oferta-nav {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.upana-oferta-resultado {
+    margin-top: 1.5rem;
+    background: #ffffff;
+    color: #333;
+    padding: 1.25rem;
+    border-radius: 14px;
+}
+
+.upana-oferta-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem;
+}
+
+.upana-oferta-card {
+    border-radius: 12px;
+    border: 1px solid #e0e0e0;
+    padding: 1rem;
+    background: #f9f9f9;
+}
+
+.upana-oferta-card h4 {
+    margin: 0 0 0.4rem;
+    font-size: 1rem;
+}
+
+.upana-oferta-sede,
+.upana-oferta-nivel,
+.upana-oferta-codigos {
+    margin: 0;
+    font-size: 0.85rem;
+}
+
+.upana-oferta-loading,
+.upana-oferta-error,
+.upana-oferta-vacia {
+    margin: 0;
+}
