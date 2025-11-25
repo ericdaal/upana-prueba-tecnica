@@ -134,8 +134,8 @@ class UPANA_API_Integration
 
         $url  = self::BASE_URL . '/api/token/';
         $body = [
-            'username' => 'devtest',
-            'password' => 'Upana+172025',
+            'username' => 'credenciales',
+            'password' => 'credenciales',
         ];
 
         $response = wp_remote_post($url, [
