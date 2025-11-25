@@ -23,16 +23,16 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'conceptu_wp_oykgw' );
+define( 'DB_NAME', 'wpdb' );
 
 /** Database username */
-define( 'DB_USER', 'conceptu_wp_ershz' );
+define( 'DB_USER', 'wpuser' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'YJB9sC9PfWXV2Y$#' );
+define( 'DB_PASSWORD', 'wppass' );
 
 /** Database hostname */
-define( 'DB_HOST', 'localhost:3306' );
+define( 'DB_HOST', 'db' );
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8' );
